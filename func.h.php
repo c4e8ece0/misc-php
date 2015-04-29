@@ -8,7 +8,6 @@ function h($arr) {
 	if($arr == null) {
 		$arr = '';
 	}
-
 	if(is_scalar($arr)) {
 		$arr = htmlspecialchars($arr);
 		$arr = str_replace( // tpl special case
